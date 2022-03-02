@@ -101,6 +101,14 @@ const DateForm = () => {
               type="checkbox"
               value="alternative"
             />
+            <label>Long Distance</label>
+            <input
+              onChange={(e) => {
+                handleFilter(e);
+              }}
+              type="checkbox"
+              value="long_distance"
+            />
           </form>
           <button onClick={showDates}>Give me Dates</button>
         </>

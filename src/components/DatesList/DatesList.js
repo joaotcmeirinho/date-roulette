@@ -1,6 +1,7 @@
 import React from "react";
 
-const DatesList = () => {
+const DatesList = ({ result }) => {
+  console.log(result);
   const onClick = () => {
     window.location.reload(false);
   };
@@ -8,7 +9,7 @@ const DatesList = () => {
     <div>
       <button onClick={onClick}>Try again</button>
 
-      <h2>hello</h2>
+      <h2>Hello</h2>
     </div>
   );
 };

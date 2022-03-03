@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import DatesList from "../DatesList/DatesList";
+import Date from "../Date/Date";
 import { db } from "../../firebase-config";
 import { collection, getDocs } from "firebase/firestore";
 
@@ -109,12 +109,20 @@ const DateForm = () => {
               type="checkbox"
               value="long_distance"
             />
+            <label>Expensive</label>
+            <input
+              onChange={(e) => {
+                handleFilter(e);
+              }}
+              type="checkbox"
+              value="expensive"
+            />
           </form>
           <button onClick={showDates}>Give me Dates</button>
         </>
       ) : (
         <>
-          <DatesList result={result} />
+          <Date result={result} />
         </>
       )}
     </div>

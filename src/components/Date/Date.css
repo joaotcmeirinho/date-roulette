@@ -1,70 +1,9 @@
-.result-bg {
-  background: radial-gradient(
-      circle closest-side at 60% 43%,
-      rgb(255, 255, 255) 26%,
-      rgba(255, 255, 255, 0) 27%
-    ),
-    radial-gradient(
-      circle closest-side at 40% 43%,
-      rgb(253, 253, 253) 26%,
-      rgba(187, 0, 51, 0) 27%
-    ),
-    radial-gradient(
-      circle closest-side at 40% 22%,
-      rgb(56, 56, 56) 45%,
-      rgba(221, 51, 85, 0) 46%
-    ),
-    radial-gradient(
-      circle closest-side at 60% 22%,
-      rgb(56, 56, 56) 45%,
-      rgba(221, 51, 85, 0) 46%
-    ),
-    radial-gradient(
-      circle closest-side at 50% 35%,
-      rgb(56, 56, 56) 30%,
-      rgba(221, 51, 85, 0) 31%
-    ),
-    radial-gradient(
-        circle closest-side at 60% 43%,
-        rgb(255, 255, 255) 26%,
-        rgba(187, 0, 51, 0) 27%
-      )
-      50px 50px,
-    radial-gradient(
-        circle closest-side at 40% 43%,
-        rgb(255, 255, 255) 26%,
-        rgba(187, 0, 51, 0) 27%
-      )
-      50px 50px,
-    radial-gradient(
-        circle closest-side at 40% 22%,
-        rgb(56, 56, 56) 45%,
-        rgba(221, 51, 85, 0) 46%
-      )
-      50px 50px,
-    radial-gradient(
-        circle closest-side at 60% 22%,
-        rgb(56, 56, 56) 45%,
-        rgba(221, 51, 85, 0) 46%
-      )
-      50px 50px,
-    radial-gradient(
-        circle closest-side at 50% 35%,
-        rgb(56, 56, 56) 30%,
-        rgba(221, 51, 85, 0) 31%
-      )
-      50px 50px;
-  background-color: white;
-  background-size: 100px 100px;
-}
-
 .result-ctn {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
   height: 100vh;
-  background-color: rgb(255, 255, 255, 0.8);
 }
 
 .result-title {
@@ -89,10 +28,14 @@
   right: 50%;
   transform: translate(50%, -50%);
   color: black;
+  width: 80%;
+  height: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .result-btn {
-  border: 2px solid green;
   font-family: "Hubballi", cursive;
   font-size: 22.5px;
   width: 55%;

@@ -70,18 +70,18 @@ const DateForm = () => {
   return (
     <div className="form-bg">
       <div className="form-ctn">
-        <div className="go-back-btn">
-          <NavLink to="/">
-            <IconContext.Provider value={{ size: "20px", color: "black" }}>
-              <IoIosArrowBack />
-            </IconContext.Provider>
-          </NavLink>
-        </div>
-
         {!isButtonClicked ? (
           <>
+            <div className="go-back-btn">
+              <NavLink to="/">
+                <IconContext.Provider value={{ size: "20px", color: "black" }}>
+                  <IoIosArrowBack />
+                </IconContext.Provider>
+              </NavLink>
+            </div>
             <h1 className="form-title">Date Roulette</h1>
             <img
+              id="heart-img-id"
               className={!active ? "heart-img" : "heart-img-2"}
               src={heart}
             />

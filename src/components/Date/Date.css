@@ -45,3 +45,9 @@
   border-radius: 15px;
   padding: 10px 20px;
 }
+
+.result-btn:hover {
+  background-color: black;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}

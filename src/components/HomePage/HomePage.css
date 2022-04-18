@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Hubballi&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
 
 @media (prefers-reduced-motion: no-preference) {
   .heart-img {
@@ -89,6 +90,7 @@
   width: 65%;
   margin-bottom: 10px;
 }
+
 .homepage-title {
   font-family: "Lobster", cursive;
   width: 80%;
@@ -117,6 +119,12 @@
   border-radius: 15px;
   padding: 10px 20px;
   margin-top: 10px;
+}
+
+.go-btn:hover {
+  background-color: black;
+  transition: all 0.3s ease;
+  cursor: pointer;
 }
 
 @media screen and (min-width: 600px) and (max-width: 800px) {
